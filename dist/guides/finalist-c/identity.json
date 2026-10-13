@@ -1,0 +1,89 @@
+{
+  "name": "Lattice",
+  "edition": 1,
+  "rationale": "Four modular corners connect through a bright central unit. The regular grid makes contributions visible and gives the identity a precise, repeatable construction language.",
+  "colors": {
+    "primary": [
+      {
+        "hex": "#22223B",
+        "rgb": [
+          34,
+          34,
+          59
+        ]
+      },
+      {
+        "hex": "#F2A900",
+        "rgb": [
+          242,
+          169,
+          0
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "hex": "#CDCDE2",
+        "rgb": [
+          205,
+          205,
+          226
+        ]
+      },
+      {
+        "hex": "#FFE4A1",
+        "rgb": [
+          255,
+          228,
+          161
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "hex": "#FFFFFF",
+        "rgb": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "hex": "#F3F3F7",
+        "rgb": [
+          243,
+          243,
+          247
+        ]
+      },
+      {
+        "hex": "#282833",
+        "rgb": [
+          40,
+          40,
+          51
+        ]
+      }
+    ]
+  },
+  "typefaces": {
+    "display": {
+      "family": "Space Mono",
+      "license": "OFL-1.1"
+    },
+    "text": {
+      "family": "DM Sans",
+      "license": "OFL-1.1"
+    }
+  },
+  "typeScale": [
+    14,
+    16,
+    20,
+    28,
+    40,
+    56
+  ],
+  "license": "CC0-1.0",
+  "provenance": "Guide kit authored in the frontend stage from the exact deployed logomark; only logomarks were present in the pinned source bundle."
+}

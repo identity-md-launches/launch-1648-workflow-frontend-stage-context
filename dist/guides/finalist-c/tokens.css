@@ -1,0 +1,14 @@
+:root {
+  --brand-ink: #22223B;
+  --brand-accent: #F2A900;
+  --brand-surface: #F3F3F7;
+  --brand-text: #282833;
+  --brand-display: 'Space Mono', sans-serif;
+  --brand-body: 'DM Sans', sans-serif;
+  --type-small: 0.875rem;
+  --type-body: 1rem;
+  --type-subheading: 1.25rem;
+  --type-heading: 1.75rem;
+  --type-title: 2.5rem;
+  --type-display: 3.5rem;
+}

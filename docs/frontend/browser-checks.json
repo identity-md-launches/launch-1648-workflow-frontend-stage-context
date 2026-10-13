@@ -1,0 +1,134 @@
+{
+  "started": "2026-10-13T21:55:37.853Z",
+  "environment": "Chromium / Playwright; exported files at a gateway-style subpath",
+  "checks": [
+    {
+      "name": "390 first screen contains product, finalist choice, live vote window and wallet action",
+      "passed": true,
+      "details": {
+        "x": 40,
+        "y": 645.34375,
+        "width": 152,
+        "height": 46
+      }
+    },
+    {
+      "name": "Missing browser wallet has an actionable persistent error",
+      "passed": true
+    },
+    {
+      "name": "Automated accessibility check: no detected WCAG A/AA violations on home",
+      "passed": true
+    },
+    {
+      "name": "All eight routes reflow at 320, 390, 768 and 1440 pixels without horizontal scroll",
+      "passed": true
+    },
+    {
+      "name": "Guide renders Markdown and every download resolves to nonempty local bytes",
+      "passed": true
+    },
+    {
+      "name": "200% text enlargement reflows at 390 pixels (not native browser zoom)",
+      "passed": true
+    },
+    {
+      "name": "Wrong-network flow offers one switch control and 4902 adds exact vetted chain then switches again",
+      "passed": true
+    },
+    {
+      "name": "Wallet seat scan covers all 2,000 ids; used seats are shown and disabled",
+      "passed": true
+    },
+    {
+      "name": "Rejected vote recovers without minting or consuming a seat",
+      "passed": true
+    },
+    {
+      "name": "Reverting vote simulation prevents a wallet send",
+      "passed": true
+    },
+    {
+      "name": "Successful vote uses selected seat/finalist, confirms receipt and refreshes counts",
+      "passed": true
+    },
+    {
+      "name": "Collector approval is exact amount and stays disabled until receipt and allowance refresh",
+      "passed": true
+    },
+    {
+      "name": "Collector mint requires irreversible-burn review; success leaves votes unchanged",
+      "passed": true
+    },
+    {
+      "name": "Portfolio decodes tokenURI and confirmed NFT burn changes no votes or seat status",
+      "passed": true
+    },
+    {
+      "name": "NFT transfer validates recipient and sends safeTransferFrom for the owned token",
+      "passed": true
+    },
+    {
+      "name": "NFT operator approval is scoped to one reviewed token",
+      "passed": true
+    },
+    {
+      "name": "An uncertain receipt locks new writes and confirmation recovery does not re-send",
+      "passed": true
+    },
+    {
+      "name": "Quoted IMD→VIMD swap runs both exact Permit2 approvals, simulates execute, sends zero ETH and confirms",
+      "passed": true
+    },
+    {
+      "name": "Reverse trade quotes VIMD→IMD with the correct input approval",
+      "passed": true
+    },
+    {
+      "name": "Expired quotes disable both approvals and swap until refreshed",
+      "passed": true
+    },
+    {
+      "name": "Over-precision is rejected instead of rounding user funds",
+      "passed": true
+    },
+    {
+      "name": "Account changes clear previous wallet seats and transaction eligibility",
+      "passed": true
+    },
+    {
+      "name": "Insufficient balance and exhausted mint cap expose no executable mint",
+      "passed": true
+    },
+    {
+      "name": "Maximum uint256 token balance reflows without clipping at 320 pixels",
+      "passed": true
+    },
+    {
+      "name": "Closed zero-vote result catches NoVotes revert and displays the required no-winner message",
+      "passed": true
+    },
+    {
+      "name": "Closed nonzero result uses contract winner rather than a client-side vote calculation",
+      "passed": true
+    },
+    {
+      "name": "Missing deployed code disables transaction controls",
+      "passed": true
+    },
+    {
+      "name": "No page script errors or missing local assets throughout browser validation",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "keyboard-focus.png",
+    "home-390.png",
+    "home-1440.png",
+    "guide-390.png"
+  ],
+  "consoleErrors": [],
+  "localFailures": [],
+  "transactions": "All wallet transactions are mocked. No live transactions broadcast.",
+  "completed": "2026-10-13T21:56:05.004Z"
+}

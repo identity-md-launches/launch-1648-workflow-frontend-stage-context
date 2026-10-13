@@ -1,0 +1,129 @@
+{
+  "checkedAt": "2026-10-13T21:53:06.611Z",
+  "source": "https://ethereum-rpc.publicnode.com",
+  "chainId": 1,
+  "blockNumber": "26186384",
+  "blockHash": "0x98e77051633d17ce85a20edb978a52d5872fb1a03877f4dc1107e57a48dea5a4",
+  "blockTimestamp": "1791928379",
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "address": "0x931fd96a22bca8e1008d18ed827d5c042932be17",
+      "codeBytes": 1739,
+      "codeKeccak": "0xb20491cb4af99861ecd090dc774bf111d370ca35b8f1fb6a2f7d40d219accee6"
+    },
+    {
+      "name": "FinalistArtA",
+      "address": "0xdb9d147d629633daf8ff42b0cb47a6207349fea9",
+      "codeBytes": 505,
+      "codeKeccak": "0x43a79aa3df9dd8a7a46604a45dd6cc521aaca4fd1927356e8edcbb39e5fc453a"
+    },
+    {
+      "name": "FinalistArtB",
+      "address": "0x693667971a5d9a4bc60f5f08792d4609035c998b",
+      "codeBytes": 521,
+      "codeKeccak": "0xccfb4bde83a9e5ff0574e4515c9ddc5aa767872c8955e0d857afd4f6be2313eb"
+    },
+    {
+      "name": "FinalistArtC",
+      "address": "0x63ebde72aeff3b67affe16f0a514a6ccce489b4d",
+      "codeBytes": 701,
+      "codeKeccak": "0x3923329ea423efa11cc5c98264156a3dcd9951b38036433fefc1331a0ec797b6"
+    },
+    {
+      "name": "BrandGenesisNFT",
+      "address": "0xe603facf4677ba4b06ad6ac01f025b74b7a96c11",
+      "codeBytes": 8855,
+      "codeKeccak": "0x2a8d3db6f26a010b8e8c565f946008b53bab95e67ab222bcf9ed354872b8462f"
+    }
+  ],
+  "bindingsAndState": {
+    "VOTE_END": "1792531559",
+    "VIMD": "0x931fD96a22BcA8E1008D18ed827D5C042932BE17",
+    "SEATS": "0x0000eC93127BAA929E58E97dd0095A2BFb38ec1D",
+    "ART_A": "0xDb9d147d629633DAF8ff42b0CB47A6207349FeA9",
+    "ART_B": "0x693667971A5D9a4bC60f5F08792D4609035c998B",
+    "ART_C": "0x63Ebde72AEFF3b67AfFE16f0a514a6CCCE489B4D",
+    "totalMinted": "0",
+    "totalBurned": "0",
+    "totalVoteMints": "0",
+    "totalBurnMints": "0",
+    "BURN_AMOUNT": "50000000000000000000000",
+    "votingOpen": true,
+    "votes": [
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "art": [
+    {
+      "name": "FinalistArtA",
+      "exactBytesMatch": true
+    },
+    {
+      "name": "FinalistArtB",
+      "exactBytesMatch": true
+    },
+    {
+      "name": "FinalistArtC",
+      "exactBytesMatch": true
+    }
+  ],
+  "protocol": [
+    {
+      "name": "poolManager",
+      "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+      "codeBytes": 24009
+    },
+    {
+      "name": "universalRouter",
+      "address": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+      "codeBytes": 19499
+    },
+    {
+      "name": "quoter",
+      "address": "0x52f0e24d1c21c8a0cb1e5a5dd6198556bd9e1203",
+      "codeBytes": 5820
+    },
+    {
+      "name": "stateView",
+      "address": "0x7ffe42c4a5deea5b0fec41c94c136cf115597227",
+      "codeBytes": 3531
+    },
+    {
+      "name": "positionManager",
+      "address": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+      "codeBytes": 23877
+    },
+    {
+      "name": "permit2",
+      "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+      "codeBytes": 9152
+    }
+  ],
+  "poolId": "0xc30c58779541523d74055b8df1f6662358242303500cafd19444ae789e19f6aa",
+  "poolState": {
+    "sqrtPriceX96": "137935966680563761824458744",
+    "tick": -127073,
+    "protocolFee": 0,
+    "lpFee": 12500,
+    "liquidity": "1427203723558688610055083"
+  },
+  "pair": {
+    "address": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "symbol": "IMD",
+    "decimals": 18
+  },
+  "quote": {
+    "kind": "eth_call only",
+    "amountIn": "1 IMD",
+    "amountOutRaw": "325663181785490863544851",
+    "gasEstimate": "36972"
+  },
+  "transactionsBroadcast": 0,
+  "limitations": [
+    "Read-only verification; no funded wallet action, approval, vote, mint, burn, transfer or live swap was broadcast.",
+    "RPC checks confirm nonempty code and binding reads, not a complete independent runtime-bytecode audit."
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "version": 1,
+  "launchId": "c1e47f7d-ddb1-43d6-9f94-df75cedf728f",
+  "chainId": 1,
+  "sourceCommit": "7c060a691aba13496cb29487b6fac0dffeef6556",
+  "attestationHash": "aaba9c763c7dcc960287585854ec7e1efe4f224a2321340d54224e267bcc7e27",
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "address": "0x931fd96a22bca8e1008d18ed827d5c042932be17",
+      "abiHash": "f36d2fe28b62f817a4fba0b78bb501b41895eada3982280273c063ad8183f577",
+      "abiPath": "abi/LaunchToken.json"
+    },
+    {
+      "name": "FinalistArtA",
+      "address": "0xdb9d147d629633daf8ff42b0cb47a6207349fea9",
+      "abiHash": "c699c8b3f06299ca617e3b1ceacc2fb9caabbc6ae27fe4d4e16ba03454ed7f19",
+      "abiPath": "abi/FinalistArtA.json"
+    },
+    {
+      "name": "FinalistArtB",
+      "address": "0x693667971a5d9a4bc60f5f08792d4609035c998b",
+      "abiHash": "c699c8b3f06299ca617e3b1ceacc2fb9caabbc6ae27fe4d4e16ba03454ed7f19",
+      "abiPath": "abi/FinalistArtB.json"
+    },
+    {
+      "name": "FinalistArtC",
+      "address": "0x63ebde72aeff3b67affe16f0a514a6ccce489b4d",
+      "abiHash": "c699c8b3f06299ca617e3b1ceacc2fb9caabbc6ae27fe4d4e16ba03454ed7f19",
+      "abiPath": "abi/FinalistArtC.json"
+    },
+    {
+      "name": "BrandGenesisNFT",
+      "address": "0xe603facf4677ba4b06ad6ac01f025b74b7a96c11",
+      "abiHash": "a699a1386c1b1411cd34012dfd630ba1460ce84992823c6ff3b56daaccb8ba13",
+      "abiPath": "abi/BrandGenesisNFT.json"
+    }
+  ],
+  "poolKey": {
+    "fee": 12500,
+    "hooks": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
+    "currency0": "0x931fd96a22bca8e1008d18ed827d5c042932be17",
+    "currency1": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "tickSpacing": 60
+  },
+  "network": {
+    "chainId": 1,
+    "name": "Ethereum",
+    "testnet": false,
+    "rpcUrls": [
+      "https://ethereum-rpc.publicnode.com",
+      "https://eth.drpc.org"
+    ],
+    "explorer": "https://etherscan.io",
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [],
+    "uniswapV4": {
+      "poolManager": "0x000000000004444c5dc75cb358380d2e3de08a90",
+      "universalRouter": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+      "quoter": "0x52f0e24d1c21c8a0cb1e5a5dd6198556bd9e1203",
+      "stateView": "0x7ffe42c4a5deea5b0fec41c94c136cf115597227",
+      "positionManager": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    },
+    "pairToken": {
+      "address": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+      "symbol": "IMD",
+      "name": "Identity.md",
+      "decimals": 18
+    },
+    "otherPairTokens": [
+      {
+        "id": "fwa",
+        "address": "0xa0df17b5ac76ababa36e1450e2cbcd18a620c845",
+        "symbol": "FWA",
+        "name": "Fake World Assets",
+        "decimals": 18
+      }
+    ]
+  },
+  "walletAddChain": {
+    "chainId": "0x1",
+    "chainName": "Ethereum",
+    "rpcUrls": [
+      "https://ethereum-rpc.publicnode.com",
+      "https://eth.drpc.org"
+    ],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://etherscan.io"
+    ]
+  },
+  "assets": [
+    {
+      "path": "abi/BrandGenesisNFT.json",
+      "sha256": "424b80c649b7eda85e1a248f783900554c8c9af395aa7ddb7460ee039d04ebf8"
+    },
+    {
+      "path": "abi/FinalistArtA.json",
+      "sha256": "34ff0bb02441441f39203d26250d76f6646f032e877bb2f279de16392ced89ea"
+    },
+    {
+      "path": "abi/FinalistArtB.json",
+      "sha256": "34ff0bb02441441f39203d26250d76f6646f032e877bb2f279de16392ced89ea"
+    },
+    {
+      "path": "abi/FinalistArtC.json",
+      "sha256": "34ff0bb02441441f39203d26250d76f6646f032e877bb2f279de16392ced89ea"
+    },
+    {
+      "path": "abi/LaunchToken.json",
+      "sha256": "c0dab602694964041a5c7124536ce5fe6c9d1d057c2f202b73f659a1e1adb554"
+    },
+    {
+      "path": "assets/ccip-DDDil_Ov.js",
+      "sha256": "c51c1691f2fa47e876fb12f38efc97a77d97fb67b4f32473d0c91cc5fd011528"
+    },
+    {
+      "path": "assets/index-5LqE_Gwh.css",
+      "sha256": "46c01dec15307e457540777173ce901292a1cbd95df692476ab276968b46031e"
+    },
+    {
+      "path": "assets/index-gYs7ZIEM.js",
+      "sha256": "6153b66dbe7f3fe6d4231aa07b985add05e9432beeccd04741aed5f839177ce2"
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "81203816aeeff89832ebd4470b1a58657275a6eef00da573483135e3a131fa15"
+    },
+    {
+      "path": "fonts/dm-sans-latin-400-normal.woff2",
+      "sha256": "4ab51eb2cd7305d177187908d6397474d4520663f6c6e572feb0a64f4fa80006"
+    },
+    {
+      "path": "fonts/dm-sans-latin-600-normal.woff2",
+      "sha256": "6bb2b2645ba5eeaecf56322c543fa3a75b87b927977b9c03b1dabc4205089120"
+    },
+    {
+      "path": "fonts/dm-sans-OFL.txt",
+      "sha256": "6fbd040a29c2037a765dfb9f2561e9965b5c95c6dcb5dce516089d63d5f17af7"
+    },
+    {
+      "path": "fonts/fraunces-latin-700-normal.woff2",
+      "sha256": "c38570d224b830056e69484bb9e768e1d3fa7ba4755c8891a3c6d366194d2ff3"
+    },
+    {
+      "path": "fonts/fraunces-OFL.txt",
+      "sha256": "cd3384cafac6f2bddc3955273958a2e029f97027c8037ac539ef5744a77b579e"
+    },
+    {
+      "path": "fonts/space-grotesk-latin-700-normal.woff2",
+      "sha256": "35f8aec56cfd5cbfdb03cc68733a54a0b05bb3617ffcd5fd332badc0b045ca55"
+    },
+    {
+      "path": "fonts/space-grotesk-OFL.txt",
+      "sha256": "18a4de52385f6b988782639d5d0cc1326e5a8c2de9a7f01d7b20d9aedcc60943"
+    },
+    {
+      "path": "fonts/space-mono-latin-700-normal.woff2",
+      "sha256": "2d46bd159b53f55c41167a4f1540a074649464194fd1e416f5b4694a6c0f282c"
+    },
+    {
+      "path": "fonts/space-mono-OFL.txt",
+      "sha256": "761663b7fb7667764f42243f9b1b2bcfccf41b158a7ab508bed4961dcf377eab"
+    },
+    {
+      "path": "guides/finalist-a/BRAND_GUIDELINES.md",
+      "sha256": "5241e319e5d6a7ae5289efd9787001a320618fbd4521dadb16d3dac920dc86d8"
+    },
+    {
+      "path": "guides/finalist-a/colors.json",
+      "sha256": "85fa5b1c6221cdcc7e8c0e767a9d512acb1ac1eff40e4c4261d92339eac2ce53"
+    },
+    {
+      "path": "guides/finalist-a/favicon.ico",
+      "sha256": "1a66f86af1fa27184242230e18573afbbc8c642b2e4d57703cec9fbeaa373f3a"
+    },
+    {
+      "path": "guides/finalist-a/identity.json",
+      "sha256": "d7ba3215c0bfe0b983a88f558453caa3fba79eff35ac1d2a0bb1ac984a2cfab4"
+    },
+    {
+      "path": "guides/finalist-a/lockup.svg",
+      "sha256": "826e2665257e6762383b2b0ad26b803dfa27ed8f567b3b257c0b197a8d36bf6d"
+    },
+    {
+      "path": "guides/finalist-a/logomark-512.png",
+      "sha256": "cb0e04565ac56778f208b4fd61ac74620ebdb60c5b37ff1f5892761b9665271f"
+    },
+    {
+      "path": "guides/finalist-a/logomark-mono.svg",
+      "sha256": "090e96f2f0473be43c7d1bbbf1b3d17ed34c40e16d0a7990c68487b6072b5ab4"
+    },
+    {
+      "path": "guides/finalist-a/logomark-reversed.svg",
+      "sha256": "8ae4e5f146b5d1f7991781065906283cc17c4c69e0517a5d209fe7a756331a89"
+    },
+    {
+      "path": "guides/finalist-a/logomark.svg",
+      "sha256": "81e423e072d0d147b714ed50bcfcf7fa9a63f3453cd463833b45b4215b467820"
+    },
+    {
+      "path": "guides/finalist-a/tokens.css",
+      "sha256": "8b0d46af095fb886f762b8353967f8418e2bd568412c9123e59b576fb0c22507"
+    },
+    {
+      "path": "guides/finalist-a/wordmark.svg",
+      "sha256": "9f97959aeb56783f02ed6d9e2f61ebc52c792ffb626e3e915269850080eb135d"
+    },
+    {
+      "path": "guides/finalist-b/BRAND_GUIDELINES.md",
+      "sha256": "bfc25aa68e667901ff5118ba998365672f2c35be4d1f54148941a770a92bd68d"
+    },
+    {
+      "path": "guides/finalist-b/colors.json",
+      "sha256": "53c8566174cf0fb8f81c38d35e1769220cb14bae278e16047239d5002706d20f"
+    },
+    {
+      "path": "guides/finalist-b/favicon.ico",
+      "sha256": "6a245f763841e7f1e3ba15e117c6cc4197309cf1703b1d34c1e03d30d4a38521"
+    },
+    {
+      "path": "guides/finalist-b/identity.json",
+      "sha256": "0a33b01453b3d2e1008a547a0c6a9e5c8ac09495b7c20e21169c9a02ef465add"
+    },
+    {
+      "path": "guides/finalist-b/lockup.svg",
+      "sha256": "b89cbfc0fd874878f113735fe6226661e74527b8038d9a3ff4177c7975322d1c"
+    },
+    {
+      "path": "guides/finalist-b/logomark-512.png",
+      "sha256": "e2ecd59b245276df525a779d1574d667aac5363fb8870ab51a1fb4e8e74c9253"
+    },
+    {
+      "path": "guides/finalist-b/logomark-mono.svg",
+      "sha256": "f69bb3d55a29e5a08611398475206498afb6b73e75c323ff4987a65d1631fd34"
+    },
+    {
+      "path": "guides/finalist-b/logomark-reversed.svg",
+      "sha256": "790d89da960eccc5cd8b8d83991d7efca54277f0f5d48440fe074e094ac73298"
+    },
+    {
+      "path": "guides/finalist-b/logomark.svg",
+      "sha256": "061566cd269e634601b192bfae592230da0c21e862387eba4bafe98f503f836a"
+    },
+    {
+      "path": "guides/finalist-b/tokens.css",
+      "sha256": "0a983308f7d65798314d29850ac303b9408ceaad83adb71aaf79555f12e516c1"
+    },
+    {
+      "path": "guides/finalist-b/wordmark.svg",
+      "sha256": "4c4d3d08fafd66c515979f4fd455fa232b00860bee5edaa46b8154b41d6d3f5d"
+    },
+    {
+      "path": "guides/finalist-c/BRAND_GUIDELINES.md",
+      "sha256": "cb98059a03e588a990a443c1c9c9b07bd4708f63532f1b28500e807e6792086a"
+    },
+    {
+      "path": "guides/finalist-c/colors.json",
+      "sha256": "5a86daff6dc38765da54f9767d30057e249a0c30f89677f0c57bce1037659559"
+    },
+    {
+      "path": "guides/finalist-c/favicon.ico",
+      "sha256": "1b77bf93cb8b971c1f6354c073802782d7e40209aeb829e370568ecdb231224f"
+    },
+    {
+      "path": "guides/finalist-c/identity.json",
+      "sha256": "dad6bdb6198fc3258c1e06fa38aa82e595edeb622e68a0e085bcb6bd79e5bf87"
+    },
+    {
+      "path": "guides/finalist-c/lockup.svg",
+      "sha256": "7f744c062443d559ed00bcc59eb31f4415ce08c92c8fd28a54c6e7a7f04480a8"
+    },
+    {
+      "path": "guides/finalist-c/logomark-512.png",
+      "sha256": "2bfbab6d6a2a80deb419d30d5f35796cfc0d36a5fef19612796997aeef82b77a"
+    },
+    {
+      "path": "guides/finalist-c/logomark-mono.svg",
+      "sha256": "8776f34d07edee1e5beb37b4b14cd4b7cde7b4b280067134e1e51dcb3aa576e8"
+    },
+    {
+      "path": "guides/finalist-c/logomark-reversed.svg",
+      "sha256": "849f376691babe1df42170ada9833e407a29cb8775302c6bc5a33a936800ada3"
+    },
+    {
+      "path": "guides/finalist-c/logomark.svg",
+      "sha256": "d14b38aa4211c118d88edceea18f2f63fb674c1576e2001d692dd403c4d0b125"
+    },
+    {
+      "path": "guides/finalist-c/tokens.css",
+      "sha256": "a742fd835757ff31295f2c50a25a3c7d56126b178616ffa24034bdb0a16a21f1"
+    },
+    {
+      "path": "guides/finalist-c/wordmark.svg",
+      "sha256": "25cb405c28959808a3251a5a654dc022df24446016667b46028af132a625be83"
+    },
+    {
+      "path": "index.html",
+      "sha256": "677f12506f40e96bdce1cfc59339899ea9afb4ea4568803bcf8d619a1c881331"
+    },
+    {
+      "path": "site-information.md",
+      "sha256": "aeb76ff4a383ebb3a9b6ef52d7a1e81c9153ae6d1bde2d3d406c66b708ba44f1"
+    },
+    {
+      "path": "social.png",
+      "sha256": "dcda4ac2eb6f30f5ac4731389bfe02a11a98cc240f8d40ec34a53e16b327c59f"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+:root {
+  --brand-ink: #0B3D3A;
+  --brand-accent: #2EC4B6;
+  --brand-surface: #FFFFFF;
+  --brand-text: #14302D;
+  --brand-display: 'Fraunces', sans-serif;
+  --brand-body: 'DM Sans', sans-serif;
+  --type-small: 0.875rem;
+  --type-body: 1rem;
+  --type-subheading: 1.25rem;
+  --type-heading: 1.75rem;
+  --type-title: 2.5rem;
+  --type-display: 3.5rem;
+}

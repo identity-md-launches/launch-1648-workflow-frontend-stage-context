@@ -1,0 +1,20 @@
+{
+  "build": "npm --prefix web run build",
+  "buildPassed": true,
+  "typecheckPassed": true,
+  "unitTests": 7,
+  "browserChecks": 28,
+  "designChecks": 16,
+  "exportAssets": 54,
+  "exportBytes": 1099923,
+  "manifestSHA256": "693557a6d17570ce7147cdaa6ec915a26f65e51fdcc1743fd0ff09c7350809b4",
+  "sourceCommit": "7c060a691aba13496cb29487b6fac0dffeef6556",
+  "offlineBuild": true,
+  "scope": "web/**, dist/**, docs/**; web/.gitignore",
+  "limitations": [
+    "The root DESIGN.md request is satisfied at docs/DESIGN.md to comply with the explicit write scope.",
+    "Browser transaction cases use mocked responses.",
+    "No publication or live transactions were performed."
+  ],
+  "commitStatus": "Not committed: .git is read-only"
+}

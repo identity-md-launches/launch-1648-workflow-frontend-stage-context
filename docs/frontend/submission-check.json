@@ -1,0 +1,10 @@
+{
+  "prospectiveFileCount": 571,
+  "prospectiveRawFileBytes": 6346019,
+  "limitBytes": 8388608,
+  "outOfScopeNewFiles": [],
+  "trackedBaseFilesModified": [],
+  "dependencyArchivesOrCaches": [],
+  "symlinks": [],
+  "commitStatus": "Blocked: git add cannot create .git/index.lock because repository metadata is read-only. No commit was made. Files remain in the permitted workspace paths for the network submission step."
+}

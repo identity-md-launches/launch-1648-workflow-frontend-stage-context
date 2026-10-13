@@ -1,0 +1,89 @@
+{
+  "name": "Keystone",
+  "edition": 1,
+  "rationale": "A hexagonal frame gathers distinct contributions around a common center. The cross is a meeting point: individual seats adding to one collective identity.",
+  "colors": {
+    "primary": [
+      {
+        "hex": "#1F2A6B",
+        "rgb": [
+          31,
+          42,
+          107
+        ]
+      },
+      {
+        "hex": "#F26B4E",
+        "rgb": [
+          242,
+          107,
+          78
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "hex": "#D7DCEF",
+        "rgb": [
+          215,
+          220,
+          239
+        ]
+      },
+      {
+        "hex": "#FFD8C9",
+        "rgb": [
+          255,
+          216,
+          201
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "hex": "#FFFFFF",
+        "rgb": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "hex": "#F5F4F0",
+        "rgb": [
+          245,
+          244,
+          240
+        ]
+      },
+      {
+        "hex": "#1E233A",
+        "rgb": [
+          30,
+          35,
+          58
+        ]
+      }
+    ]
+  },
+  "typefaces": {
+    "display": {
+      "family": "Space Grotesk",
+      "license": "OFL-1.1"
+    },
+    "text": {
+      "family": "DM Sans",
+      "license": "OFL-1.1"
+    }
+  },
+  "typeScale": [
+    14,
+    16,
+    20,
+    28,
+    40,
+    56
+  ],
+  "license": "CC0-1.0",
+  "provenance": "Guide kit authored in the frontend stage from the exact deployed logomark; only logomarks were present in the pinned source bundle."
+}

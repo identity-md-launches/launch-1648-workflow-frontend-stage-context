@@ -1,0 +1,98 @@
+{
+  "chainId": 1,
+  "poolKey": {
+    "fee": 12500,
+    "hooks": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
+    "currency0": "0x931fd96a22bca8e1008d18ed827d5c042932be17",
+    "currency1": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "tickSpacing": 60
+  },
+  "repoUrl": "https://github.com/identity-md-launches/launch-1645-workflow-contract-stage-context",
+  "version": 1,
+  "launchId": "c1e47f7d-ddb1-43d6-9f94-df75cedf728f",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 12500,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7"
+    },
+    "notes": "VisualIdentity.md, Edition 1: a community proposal for IMD's visual identity, decided by identity.md seat holders. LaunchToken (VIMD) is the standard fixed-supply launch token with no constructor arguments. FinalistArtA, FinalistArtB and FinalistArtC are immutable, argument-free contracts that each return one finalist's logomark SVG exactly as published under art/finalist-a, -b and -c. BrandGenesisNFT is the ERC-721 'Visual Identity Genesis' (VIMDG); its constructor takes, in order, this launch's token ($token) as the VIMD burned by mint(uint8), the identity.md seat collection on Ethereum mainnet (0x0000ec93127baa929e58e97dd0095a2bfb38ec1d, an address-typed argument fixed by the approved workflow) whose ownerOf gates vote(uint256,uint8), and the three finalist art contracts ($contract:FinalistArtA, B and C) as the tokenURI image sources. The constructor stores these addresses and sets VOTE_END to deployment plus 7 days; it calls no other contract, so it runs on an empty chain. BrandGenesisNFT has no owner, admin, pause, upgrade, setter or withdraw function, so no constructor argument grants a privileged role and $owner is not used anywhere in this launch. No contract here is allocated, reserved or sent any of the supply; the factory splits it (the swarm's 10% to the MerkleDistributor, 90% to the pool). Burn mints transfer 50,000 VIMD from the caller to 0x000000000000000000000000000000000000dEaD; that address is a burn sink inside mint(uint8), never a constructor argument. The pool pairs VIMD with IMD at the launch policy's 1.25% fee, tick spacing 60; the deployer derives the opening price from the policy's opening market cap, so initialPrice is written as the launch facts give it.",
+    "token": {
+      "name": "VisualIdentity.md",
+      "symbol": "VIMD",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "FinalistArtA",
+        "constructorArgs": []
+      },
+      {
+        "contract": "FinalistArtB",
+        "constructorArgs": []
+      },
+      {
+        "contract": "FinalistArtC",
+        "constructorArgs": []
+      },
+      {
+        "contract": "BrandGenesisNFT",
+        "constructorArgs": [
+          "$token",
+          "0x0000ec93127baa929e58e97dd0095a2bfb38ec1d",
+          "$contract:FinalistArtA",
+          "$contract:FinalistArtB",
+          "$contract:FinalistArtC"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0x08d93710dc3bb299af7bec9d39bdf1b887c3d391e3f1daa48e306433ec2dcf22",
+      "abiHash": "f36d2fe28b62f817a4fba0b78bb501b41895eada3982280273c063ad8183f577",
+      "address": "0x931fd96a22bca8e1008d18ed827d5c042932be17",
+      "blockNumber": 26186249,
+      "creationCodeHash": "dce12c8c48223356d37f2fc23ab24c0e24ecf0f5486538c70be178155def7f43"
+    },
+    {
+      "name": "FinalistArtA",
+      "txHash": "0x08d93710dc3bb299af7bec9d39bdf1b887c3d391e3f1daa48e306433ec2dcf22",
+      "abiHash": "c699c8b3f06299ca617e3b1ceacc2fb9caabbc6ae27fe4d4e16ba03454ed7f19",
+      "address": "0xdb9d147d629633daf8ff42b0cb47a6207349fea9",
+      "blockNumber": 26186249,
+      "creationCodeHash": "3ffa4b753aad890d505e26a6b273282b1508cf1e32b69ffcd63c0b5974ff7e1d"
+    },
+    {
+      "name": "FinalistArtB",
+      "txHash": "0x08d93710dc3bb299af7bec9d39bdf1b887c3d391e3f1daa48e306433ec2dcf22",
+      "abiHash": "c699c8b3f06299ca617e3b1ceacc2fb9caabbc6ae27fe4d4e16ba03454ed7f19",
+      "address": "0x693667971a5d9a4bc60f5f08792d4609035c998b",
+      "blockNumber": 26186249,
+      "creationCodeHash": "9abb9ac56cd9c6b334a6c9600c18be4aea5cf2a312643d6d00460d7e0b0f2f80"
+    },
+    {
+      "name": "FinalistArtC",
+      "txHash": "0x08d93710dc3bb299af7bec9d39bdf1b887c3d391e3f1daa48e306433ec2dcf22",
+      "abiHash": "c699c8b3f06299ca617e3b1ceacc2fb9caabbc6ae27fe4d4e16ba03454ed7f19",
+      "address": "0x63ebde72aeff3b67affe16f0a514a6ccce489b4d",
+      "blockNumber": 26186249,
+      "creationCodeHash": "545d768e0db20949cad7197eddd826c63bdb2a597e0d8f63808c99cfc2b62e4a"
+    },
+    {
+      "name": "BrandGenesisNFT",
+      "txHash": "0x08d93710dc3bb299af7bec9d39bdf1b887c3d391e3f1daa48e306433ec2dcf22",
+      "abiHash": "a699a1386c1b1411cd34012dfd630ba1460ce84992823c6ff3b56daaccb8ba13",
+      "address": "0xe603facf4677ba4b06ad6ac01f025b74b7a96c11",
+      "blockNumber": 26186249,
+      "creationCodeHash": "2b30e50244737e2109c025a8ba6d35af874d714e11d2ef91ff85b5679c1d114e"
+    }
+  ],
+  "sourceCommit": "7c060a691aba13496cb29487b6fac0dffeef6556",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "aaba9c763c7dcc960287585854ec7e1efe4f224a2321340d54224e267bcc7e27"
+}

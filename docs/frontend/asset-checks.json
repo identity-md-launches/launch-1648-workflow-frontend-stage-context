@@ -1,0 +1,33 @@
+{
+  "checks": [
+    {
+      "finalist": "a",
+      "originalSVGBytes": 310,
+      "originalUnchanged": true,
+      "PNG512": true,
+      "ICO": true,
+      "RGB": true,
+      "svgPathsOnly": true
+    },
+    {
+      "finalist": "b",
+      "originalSVGBytes": 326,
+      "originalUnchanged": true,
+      "PNG512": true,
+      "ICO": true,
+      "RGB": true,
+      "svgPathsOnly": true
+    },
+    {
+      "finalist": "c",
+      "originalSVGBytes": 506,
+      "originalUnchanged": true,
+      "PNG512": true,
+      "ICO": true,
+      "RGB": true,
+      "svgPathsOnly": true
+    }
+  ],
+  "repositoryPNGCount": 90,
+  "publicAssetsMatchExport": true
+}

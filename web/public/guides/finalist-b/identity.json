@@ -1,0 +1,89 @@
+{
+  "name": "Orbit",
+  "edition": 1,
+  "rationale": "A center, a ring and a satellite describe an open network of people. The circle gives the system continuity while the off-center satellite leaves room for an individual point of view.",
+  "colors": {
+    "primary": [
+      {
+        "hex": "#0B3D3A",
+        "rgb": [
+          11,
+          61,
+          58
+        ]
+      },
+      {
+        "hex": "#2EC4B6",
+        "rgb": [
+          46,
+          196,
+          182
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "hex": "#C8E6DF",
+        "rgb": [
+          200,
+          230,
+          223
+        ]
+      },
+      {
+        "hex": "#D3B98C",
+        "rgb": [
+          211,
+          185,
+          140
+        ]
+      }
+    ],
+    "neutral": [
+      {
+        "hex": "#F4F1DE",
+        "rgb": [
+          244,
+          241,
+          222
+        ]
+      },
+      {
+        "hex": "#FFFFFF",
+        "rgb": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "hex": "#14302D",
+        "rgb": [
+          20,
+          48,
+          45
+        ]
+      }
+    ]
+  },
+  "typefaces": {
+    "display": {
+      "family": "Fraunces",
+      "license": "OFL-1.1"
+    },
+    "text": {
+      "family": "DM Sans",
+      "license": "OFL-1.1"
+    }
+  },
+  "typeScale": [
+    14,
+    16,
+    20,
+    28,
+    40,
+    56
+  ],
+  "license": "CC0-1.0",
+  "provenance": "Guide kit authored in the frontend stage from the exact deployed logomark; only logomarks were present in the pinned source bundle."
+}

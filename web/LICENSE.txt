@@ -1,0 +1,7 @@
+CC0 1.0 Universal
+
+To the extent possible under law, the contributors to VisualIdentity.md Edition 1 waive all copyright and related or neighboring rights to the original frontend code, artwork and guide documents in this contribution. You may copy, modify and distribute the work, even for commercial purposes, without asking permission. No endorsement by IMD is implied. The work is provided without warranty.
+
+The full CC0 1.0 legal code is available at https://creativecommons.org/publicdomain/zero/1.0/legalcode.
+
+Third-party software and fonts retain their own licenses. This dedication does not override those licenses or grant trademark rights. See public/fonts/*-OFL.txt and THIRD_PARTY.md.
